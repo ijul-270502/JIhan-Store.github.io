@@ -1,0 +1,66 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+/* end font */
+
+/* style */
+body {
+    background-color: #EAEAEA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+    color: #202020;
+}
+
+.form-control {
+    width: 100%;
+}
+
+/* carousel */
+.carouselku{
+    padding-top: 5rem;
+    margin: auto;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+/* end carousel */
+
+/* start kategori */
+.img-categori{
+    width: 50px;
+}
+
+.img-categori:hover {
+    transform: scale(1.5);
+}
+
+.row-container {
+    background-color: #fff;
+    margin: 0;
+}
+/* end kategori */
+
+/* start produk */
+.card:hover {
+    border: 2px solid #2d2d2d;
+}
+/* end produk */
+
+/* single product */
+.row-product {
+    background-color: #fff;
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px;
+}
+
+.garis-product {
+    border-bottom: 2px solid #2d2d2d;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.harga {
+    font-size: 50px;
+}
